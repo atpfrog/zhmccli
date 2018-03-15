@@ -1,4 +1,4 @@
-.. Copyright 2017 IBM Corp. All Rights Reserved.
+.. Copyright 2017-2018 IBM Corp. All Rights Reserved.
 ..
 .. Licensed under the Apache License, Version 2.0 (the "License");
 .. you may not use this file except in compliance with the License.
@@ -21,7 +21,7 @@ Change log
 Version 0.19.0
 ^^^^^^^^^^^^^^
 
-Released: not yet
+Released: 2018-03-15
 
 **Incompatible changes:**
 
@@ -29,10 +29,6 @@ Released: not yet
   can be made to behave like previously by specifying the new ``--force``
   option. In force mode, the deactivation operation is permitted when the
   LPAR status is "operating".
-
-**Deprecations:**
-
-**Bug fixes:**
 
 **Enhancements:**
 
@@ -54,12 +50,6 @@ Released: not yet
 
 * Added support for ``cpc set-power'save``, ``cp set-power-capping``
   and ``cpc get-em-data`` operations.
-
-**Known issues:**
-
-* See `list of open issues`_.
-
-.. _`list of open issues`: https://github.com/zhmcclient/zhmccli/issues
 
 
 Version 0.18.0
